@@ -333,9 +333,7 @@ const Home = () => {
             : ""}
         </div>
 
-        <div style={{ fontWeight: "bold" }}>
-          {bundle.data != null ? <img src={iconUrl} alt="" /> : ""}
-        </div>
+        <div>{bundle.data != null ? <img src={iconUrl} alt="" /> : ""}</div>
 
         <div>
           {bundle.data && <div style={{ fontWeight: "bold" }}>MIN</div>}

@@ -5,7 +5,7 @@ export const ForecastProvider = (props) => {
   const [forc, setForc] = useState([]);
 
   return (
-    <ForecastContext.Provider value={[forc, (setForc: () => {})]}>
+    <ForecastContext.Provider value={[forc, setForc]}>
       {props.children}
     </ForecastContext.Provider>
   );
