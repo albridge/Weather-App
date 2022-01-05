@@ -1,0 +1,26 @@
+.glass {
+  background: rgba(0, 0, 0, 0.8);
+  width: 130px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.4;
+  background-color: white;
+  color: black;
+  font-size: 36px;
+  backdrop-filter: saturate(180%) blur(10px);
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 2px 2px 6px 2px #332f2f;
+  font-weight: bold;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glass {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.shadow {
+  text-shadow: 2px 2px 4px #000000;
+}
