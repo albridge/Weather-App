@@ -8,10 +8,7 @@ export default class Real extends PureComponent {
 
   constructor(props) {
     super(props);
-    this.state = {
-      // property: props,
-      // liveData: this.props.dailyData,
-    };
+    this.state = {};
   }
 
   render() {

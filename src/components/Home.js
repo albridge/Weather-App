@@ -141,7 +141,7 @@ const Home = () => {
     for (let x = 0; x < val.length; x++) {
       var value = val[x].temp;
       var des = val[x].weather[0];
-      // console.log(val[x].temp.max);
+
       listings[x] = {
         name: days[x],
         High: getCelsius(value.max),
@@ -153,8 +153,6 @@ const Home = () => {
     setDaily(listings);
     setForc(listings);
     setTimeout(function () {}, 5000);
-
-    // console.log("in listings ", listings);
   };
 
   // full forecast

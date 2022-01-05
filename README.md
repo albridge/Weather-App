@@ -1,3 +1,4 @@
+Project uses open weather api, react, expressjs and context api for forcast data management
 App built using express backend and open weather api
 to run app clone repository and run npm install
 
